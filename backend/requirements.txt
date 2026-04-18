@@ -1,0 +1,20 @@
+# Web framework
+fastapi==0.115.12
+
+# ASGI server
+uvicorn[standard]==0.34.2
+
+# MongoDB async driver
+motor==3.7.0
+
+# Data validation
+pydantic[email]==2.11.3
+
+# JWT authentication
+python-jose[cryptography]==3.3.0
+
+# Password hashing
+passlib[bcrypt]==1.7.4
+
+# Multipart form data (file uploads & OAuth2 form login)
+python-multipart==0.0.20
